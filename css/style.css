@@ -1,0 +1,129 @@
+.slider h3, .slider h5, .clients h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(1px, 1px, 1px, rgba(0,0,0, .8));
+}
+
+section, footer {
+    padding: 20px 0;
+}
+audio {
+   
+    width: 250px;
+}
+.kosong {
+    display: none;
+}
+.jus {
+    text-align: justify;
+}
+.gallery {
+    float: left;
+    position: relative;
+}
+
+.gallery span {
+    display: block;
+    width: 213px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px #ddd;
+    opacity: 0;
+    transform: scale(0) rotate(0);
+    transition: 0.5s;
+}
+.gallery a:hover span {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+.tambah span {
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px #ddd;
+    opacity: 0;
+    transform: scale(0) rotate(0);
+    transition: 0.5s;
+}
+.tambah a:hover span {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+@media (max-width: 500px) {
+    .gallery span {
+        display: block;
+        width: 413px;
+        height: 90px;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        line-height: 90px;
+        color: white;
+        text-shadow: 1px 1px 2px #ddd;
+        opacity: 0;
+        transform: scale(0) rotate(0);
+        transition: 0.5s;
+    }
+    .gallery a:hover span {
+        opacity: 1;
+        transform: scale(1) rotate(360deg);
+    }
+    }
+.fl1 {
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.fl2 {
+    float: right;
+}
+.satu { 
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 50px auto;
+    box-shadow: 0px 0px 0px 5px rgba(255, 0, 0, 0.993),
+    0px 0px 0px 10px rgb(246, 250, 0), 
+    0px 0px 0px 15px rgb(0, 17, 255);
+    transition: .5s;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+.satu:hover {
+        box-shadow: 0px 80px 10px -40px rgba(0, 0, 0, 0.15);  
+        margin-top: 40px;
+        
+    }
+    .logo {
+        padding: 5px;
+        margin: 5px;
+    }
+    .name {
+        font-family: 'Big Shoulders Inline Text', cursive;
+    }
